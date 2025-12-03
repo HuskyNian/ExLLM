@@ -4,7 +4,7 @@ This repository contains the source code and scripts for the ExLLM project. The 
 
 ## Project Structure
 
-/home/v-nianran/src/ExLLM <br>
+/home/src/ExLLM <br>
 ├── algorithm <br>
 │ ├── base.py <br>
 │ ├── MOO.py <br>
