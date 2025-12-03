@@ -1,10 +1,10 @@
-# MOLLM
+# ExLLM
 
-This repository contains the source code and scripts for the MOLLM project. The project is organized as follows:
+This repository contains the source code and scripts for the ExLLM project. The project is organized as follows:
 
 ## Project Structure
 
-/home/v-nianran/src/MOLLM <br>
+/home/v-nianran/src/ExLLM <br>
 ├── algorithm <br>
 │ ├── base.py <br>
 │ ├── MOO.py <br>
@@ -28,17 +28,17 @@ This repository contains the source code and scripts for the MOLLM project. The 
 ### Description of Files and Directories
 
 - **main.py**
-  - The main entry point for training and testing the MOLLM model.
+  - The main entry point for training and testing the ExLLM model.
 
 - **model/**
-  - `MOLLM.py`: Contains the implementation of the MOLLM model.
+  - `ExLLM.py`: Contains the implementation of the ExLLM model.
   - `LLM.py`: Implemetation of LLM model
   - `MOScigpt.py`: MO SciGPT model and its algorithm.
   - `load_Scigpt.py`: Utility script to load the SciGPT model.
   - `util.py`: Utility functions used across the project, including NSGA-II currently.
 
 - **test.ipynb**
-  - Jupyter notebook containing experiments, visualizations, or other exploratory analysis related to the MOLLM project.
+  - Jupyter notebook containing experiments, visualizations, or other exploratory analysis related to the ExLLM project.
   - Including the tutorial of how to modify the main components
 
 ## Getting Started
