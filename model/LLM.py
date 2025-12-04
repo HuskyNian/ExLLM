@@ -103,7 +103,7 @@ class LLM:
             return self._init_deepseek()
 
     def _init_deepseek(self):
-        client = OpenAI(api_key="sk-59a5fa848a4a47fcbcfde13fd13b2af5", base_url="https://api.deepseek.com")
+        client = OpenAI(api_key="", base_url="https://api.deepseek.com")
         return client
     
     def deepseek_chat(self,content):
@@ -118,7 +118,7 @@ class LLM:
         return response.choices[0].message.content
     
     def _init_gemini(self):
-        genai.configure(api_key="AIzaSyCnqH8ekkJkr0Z_t6qeDAgRtWs6Gy4AuBk")
+        genai.configure(api_key="")
         model = genai.GenerativeModel("gemini-1.5-flash")
         return model
     
