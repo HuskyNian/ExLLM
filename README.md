@@ -1,5 +1,5 @@
 # ExLLM
-
+![Welcome!](chaiopt_trans.png)
 This repository contains the source code and scripts for the ExLLM project. The project is organized as follows:
 
 ## Project Structure
