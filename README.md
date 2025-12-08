@@ -11,8 +11,10 @@ ExLLM serves as a general LLM-as-optimizer framework and achieves strong perform
 
 ---
 
-#### **Classical Multi-objective Routing (MOTSP / MOCVRP)**
-<img src="images/mocvrp.png" width="600">
+#### **Stellarator Design, Constellation Benchmark**
+<img src="images/constellaration.png" width="800">
+
+
 
 ---
 
@@ -21,8 +23,9 @@ ExLLM serves as a general LLM-as-optimizer framework and achieves strong perform
 
 ---
 
-#### **Stellarator Design, Constellation Benchmark**
-<img src="images/constellaration.png" width="600">
+#### **Classical Multi-objective Routing (MOTSP / MOCVRP)**
+<img src="images/mocvrp.png" width="800">
+
 
 
 ### Running the experiments
