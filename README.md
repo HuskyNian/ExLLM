@@ -1,60 +1,46 @@
 # ExLLM
-![Welcome!](chaiopt_trans.png)
+![Welcome!](images/chaiopt_trans.png)
 This repository contains the source code and scripts for the ExLLM project. The project is organized as follows:
 
-## Project Structure
+# Results
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/pmo.png" width="360" alt="PMO results"><br>
+      <sub><b>Practical Molecular Optimization (PMO)</b><br/>Total score on PMO benchmark.</sub>
+    </td>
+    <td align="center">
+      <img src="images/mocvrp.png" width="360" alt="Routing results"><br>
+      <sub><b>Multi-objective routing</b><br/>MOTSP &amp; MOCVRP benchmark performance.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/offshore.png" width="360" alt="Offshore jacket results"><br>
+      <sub><b>Offshore jacket design</b><br/>Weight minimisation under stress constraints.</sub>
+    </td>
+    <td align="center">
+      <img src="images/constellaration.png" width="360" alt="Constellation / stellarator results"><br>
+      <sub><b>Physical design task</b><br/>Performance on complex physics-inspired design.</sub>
+    </td>
+  </tr>
+</table>
 
-/home/src/ExLLM <br>
-├── algorithm <br>
-│ ├── base.py <br>
-│ ├── MOO.py <br>
-│ └──  PromptTemplate.py <br>
-├── model <br>
-│ ├── LLM.py <br>
-│ ├── MOLLM.py <br>
-│ └── util.py <br>
-├── data <br>
-│ ├── data_goal5.json <br>
-│ └── zinc.tab <br>
-├── problem <br>
-│ ├── molecules <br>
-│ │ ├── evaluator.py <br>
-│ │ ├── config.yaml <br>
-│ │ └── prompt_info.yaml <br>
-| | ...
-├── eval.py <br>
-├── main.py <br>
-└── test.ipynb <br>
 
 ### Running the experiments
   - `python main.py molecules/goal5_gemini.yaml`: You need to define a config file to run, this is an example, you can use it as a template, the path is set to under the problem directory.
   - To resume training, just set `resume: True` in your config file. 
 
-### Description of Files and Directories
-
-- **main.py**
-  - The main entry point for training and testing the ExLLM model.
-
-- **model/**
-  - `ExLLM.py`: Contains the implementation of the ExLLM model.
-  - `LLM.py`: Implemetation of LLM model
-  - `MOScigpt.py`: MO SciGPT model and its algorithm.
-  - `load_Scigpt.py`: Utility script to load the SciGPT model.
-  - `util.py`: Utility functions used across the project, including NSGA-II currently.
-
-- **test.ipynb**
-  - Jupyter notebook containing experiments, visualizations, or other exploratory analysis related to the ExLLM project.
-  - Including the tutorial of how to modify the main components
 
 ## Getting Started
 To define a new optimization problem, you only need to create the following three files:
 
 1. **`config.yaml`** – This file specifies the algorithm parameters for optimization.  
-   📁 Example: `problem/molecules/goal5_gemini.yaml`
+   📁 Example: `problem/molecules/config.yaml`
 
-2. **`molecule.yaml`** – This file contains metadata, problem definitions, and textual descriptions.  
+2. **`prompt_info.yaml`** – This file contains metadata, problem definitions, and textual descriptions.  
    A full tutorial is provided below.  
-   📁 Example: `problem/molecules/molecule.yaml`
+   📁 Example: `problem/molecules/prompt_info.yaml`
 
 3. **`evaluator.py`** – This Python file defines how the generated solutions are evaluated. 
     A full tutorial is provided below.  
