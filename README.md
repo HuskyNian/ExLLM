@@ -12,6 +12,14 @@ Also 2nd place in Molecular Generation Challenge 2025 hosted by Sinopec.
 
 ---
 
+#### **Circle Packing in a Unit Square**
+| n | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
+|---|----|----|----|----|----|----|----|
+| **Record** | 2.635977 (AlphaEvolve) | 2.685+ (Cantrell) | 2.737+ (Cantrell) | 2.790+ (Cantrell) | 2.842+ (Cantrell) | 2.889+ (Cantrell) | 2.937+ (AlphaEvolve) |
+| **ExLLM** | **2.635983 (new record)** | 2.68598 | 2.73740 | 2.79034 | 2.84267 | 2.88997 | **2.939+ (new record)** |
+
+--- 
+
 #### **Stellarator Design, Constellation Benchmark**
 <img src="images/constellaration.png" width="850">
 
@@ -27,14 +35,12 @@ Also 2nd place in Molecular Generation Challenge 2025 hosted by Sinopec.
 
 --- 
 
-#### **Circle Packing in a Unit Square**
-| n | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
-|---|----|----|----|----|----|----|----|
-| **Record** | 2.635977 (AlphaEvolve) | 2.685+ (Cantrell) | 2.737+ (Cantrell) | 2.790+ (Cantrell) | 2.842+ (Cantrell) | 2.889+ (Cantrell) | 2.937+ (AlphaEvolve) |
-| **ExLLM** | **2.635983** | 2.68598 | 2.73740 | 2.79034 | 2.84267 | 2.88997 | **2.939+** |
+
 
 #### **GCU kernel optimization**
 Tencent Kaiwu AI competition 2025 (GCU track), Second prize.
+
+---
 
 #### **Peptide Design**
 
