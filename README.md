@@ -43,7 +43,7 @@ Tencent Kaiwu AI competition 2025 (GCU track), Second prize.
 ---
 
 #### **Peptide Design**
-
+Sinopec Molecular Generation Challenge 2025, Second prize
 
 
 
